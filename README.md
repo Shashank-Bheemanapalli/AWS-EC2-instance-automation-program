@@ -4,7 +4,9 @@ Fetch Rewards Coding Assessment
 ## The objective is to develop an automation program that takes a YAML configuration file as input and deploys a Linux AWS EC2 instance with two volumes and two users.
 
 Install awscli and boto3:
- - pip install awscli boto3
+```bash
+pip install awscli boto3
+```
 
 Create a User and get AWS Access ID and Secret Key.
 Enable only 'Programmatic Access' while creating the user.
