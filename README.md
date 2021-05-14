@@ -28,7 +28,7 @@ Finally, execute the ec2_automation.py file.
 In the Create_instance function, we pass on user data which provides initial configuration for the EC2 instace after launching.
 
 
-# In the end, we will have a running EC2 instance attached with two EBS volumes (1. root volume [ 10 gb ], 2.mounted to /data [ 100 gb ]) along with two new users (here: user1 and user2).
-# The .pem file for both the users are provided in the repo, which can be used to ssh into the instance using the command : ssh -i <keyname.pem> <username>@<instance public ip>
+- In the end, we will have a running EC2 instance attached with two EBS volumes (1. root volume [ 10 gb ], 2.mounted to /data [ 100 gb ]) along with two new users (here: user1 and user2).
+- The .pem file for both the users are provided in the repo, which can be used to ssh into the instance using the command : ssh -i <keyname.pem> <username>@<instance public ip>
 
 
