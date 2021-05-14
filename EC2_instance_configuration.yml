@@ -9,7 +9,7 @@ server:
   volumes:
     - device: /dev/xvda
       size_gb: 10
-      type: ext4
+      type: xfs
       mount: /
     - device: /dev/xvdf
       size_gb: 100
