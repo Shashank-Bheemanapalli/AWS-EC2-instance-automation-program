@@ -206,10 +206,11 @@ def terminate_instance(instance_id):
     print(response)
 
 # the main function for ec2 automation
+# run create_new_key_pair and create_security_group funtion only once when launching on a new aws account
 def main():
-    #create_new_key_pair()
-    #create_security_group()
+    create_new_key_pair()
+    create_security_group()
     create_instance()
-
+# running the main function
 main()
 
