@@ -32,7 +32,7 @@ Finally, execute the ec2_automation.py file.
   ```bash
 chmod 400 <keyname.pem>
 ```
-  - Secondly, the main function will create a new security group for the EC2 instance. (Here, I have enable access only for port 80 [ http ]  and port 22 [ ssh ].
+  - Secondly, the main function will create a new security group for the EC2 instance. (Here, I have enabled access only for port 80 [ http ]  and port 22 [ ssh ].
   - Finally, the main function will create a new EC2 insctance.
 
 In the Create_instance function, we pass on user data which provides initial configuration for the EC2 instance after launching.
